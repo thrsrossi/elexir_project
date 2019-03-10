@@ -1,0 +1,105 @@
+header {
+    height: 150px;
+    font-size: 1.1em;
+
+    .logo {
+        max-width: 220px;
+        text-align: start;
+        padding: 2em 0 0 1em;
+
+        img {
+            max-width: 220px;
+            max-height: 85px;
+        }
+    }
+    nav {
+
+        ul {
+            height: 100%;
+
+
+            li {
+                flex: 1;
+                text-align: center;
+                height: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                letter-spacing: 2px;
+                
+                a {
+                    color: black;
+                    transition: 0.3s;
+                    line-height: 150px;
+                    -webkit-transition: .6s;
+                        -o-transition: .6s;
+                        transition: .6s;
+
+                    &:hover {
+                        color: $red;
+                        cursor: pointer;
+                        text-decoration: none;
+                        font-size: 1.3em;
+                    }
+                }
+            }
+        }
+    }
+}
+.welcome {
+    height: 15em;
+}
+
+.first-left {
+    ul {
+        font-size: 1.4em;
+    }
+}
+
+.first-right {
+    background-color: white;
+    border-bottom: none;
+    margin-top: 2em;
+
+    .juice-day {
+        width: 100%;
+        padding: 1em;
+
+    }
+    .juice-button {
+        margin-top: 1em;
+    }
+}
+.stores {
+    font-size: 1.3em;
+}
+.form {
+    border-top: 2px solid $green;
+    padding: 3em 0 2em 2em;
+}
+
+
+footer {
+    height: 200px;
+    background-color: black;
+    color: $yellow;
+
+    .footer-logo {
+        width: 100%;
+        min-width: 80px;
+        padding: 2em;
+        margin-left: 2em;
+
+        img {
+            max-width: 170px;
+            max-height: 140px;
+        }
+    }
+    .adress {
+        font-size: 1em;
+
+    }
+}
+
+
+

@@ -1,0 +1,99 @@
+header {
+    font-size: 1.6em;
+
+    .logo {
+        max-width: 220px;
+        text-align: start;
+        padding: 1.3em 0 0 1em;
+    }
+}
+
+.first-left {
+    background-color: white;
+    max-height: 27em;
+    margin-top: 2em;
+
+    h2 {
+        font-size: 3em;
+        text-align: start;
+        border-bottom: 2px solid $green;
+        padding: 1em 0 .7em 0;;
+    }
+    h3 {
+        font-size: 2.8em;
+        padding-top: .5em;
+    }
+    ul {
+        font-size: 1.7em;
+        padding-top: .3em;
+    }
+ 
+}
+
+.first-right {
+    background-color: white;
+    margin-top: 2em;
+
+
+}
+.second-right {
+
+    h2 {
+        font-size: 2.5em;
+        padding: .6em 0 .4em .5em;
+    }
+    p {
+        font-size: 1.3em;
+        padding: 0 1em 0 1em;
+    }
+}
+
+.juice-menu {
+    padding: 3em 2em;
+}
+
+.second-right,
+.second-left,
+.third-left,
+.third-right {
+    margin-top: 3em;
+    border-top: 2px solid $green;
+    padding-top: 3em;
+}
+.third-left {
+    padding-right: 4em;
+    margin-left: 0;
+}
+.stores {
+    border-top: 2px solid $green;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5.7em;
+
+    .adress-box {
+        padding-left: 2em;
+    }
+}
+.headline-stores {
+    h2 {
+        font-size: 2.5em;
+    }
+}
+.footer {
+    a {
+        padding: .5em 0 0 2em;
+    }
+    .adress-line {
+        padding: .5em 0 0 2em;
+    }
+    .number {
+        padding: .5em 0 0 2em;
+    }
+}
+
+
+
+
+

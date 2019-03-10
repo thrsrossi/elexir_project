@@ -1,0 +1,23 @@
+$raleway: 'Raleway', sans-serif;
+$vidaloka: 'Vidaloka', serif;
+
+$green: #19d300;
+$red: #cc0033;
+$yellow: #ffcc00;
+
+%header-img {
+    height: 12em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2em;
+}
+%juice-page-images {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+@mixin create-border($border-width, $border-color){
+    border: $border-width solid $border-color;
+    border-radius: 20px;
+}
