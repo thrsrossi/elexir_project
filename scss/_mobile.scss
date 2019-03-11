@@ -70,22 +70,22 @@ header {
 }
 
 .welcome {
-    background-image: url("/elexir_prod/img/many_juice.jpg");
+    background-image: url("../img/many_juice.jpg");
     @extend %header-img;
     background-position: bottom;
 }
 .juices {
-    background-image: url("/elexir_prod/img/green_leafs.jpg");
+    background-image: url("../img/green_leafs.jpg");
     @extend %header-img;
     background-position: center;
 }
 .about {
-    background-image: url("/elexir_prod/img/oranges_cut.jpg");
+    background-image: url("../img/oranges_cut.jpg");
     @extend %header-img;
     background-position: center;
 }
 .stores-banner {
-    background-image: url("/elexir_prod/img/blood_orange.jpg");
+    background-image: url("../img/blood_orange.jpg");
     @extend %header-img;
     background-position: center;
 }
@@ -323,49 +323,49 @@ header {
 
     .one {
         height: 100%;
-        background-image: url("/elexir_prod/img/kiwi.jpg");
+        background-image: url("../img/kiwi.jpg");
         background-position: center;
         @extend %juice-page-images;
     }
     .two {
         height: 100%;
-        background-image: url("/elexir_prod/img/apples.jpg");
+        background-image: url("../img/apples.jpg");
         background-position: center;
         @extend %juice-page-images;
     }
     .three {
         height: 100%;
-        background-image: url("/elexir_prod/img/collard.jpg");
+        background-image: url("../img/collard.jpg");
         background-position: center;
         @extend %juice-page-images;
     }
     .four {
         height: 100%;
-        background-image: url("/elexir_prod/img/apricot.jpg");
+        background-image: url("../img/apricot.jpg");
         background-position: top;
         @extend %juice-page-images;
     }
     .five {
         height: 100%;
-        background-image: url("/elexir_prod/img/red_juice.jpg");
+        background-image: url("../img/red_juice.jpg");
         background-position: center;
         @extend %juice-page-images;
     }
     .six {
         height: 100%;
-        background-image: url("/elexir_prod/img/passion.jpg");
+        background-image: url("../img/passion.jpg");
         background-position: center;
         @extend %juice-page-images;
     }
     .seven {
         height: 100%;
-        background-image: url("/elexir_prod/img/tomato_pour.jpg");
+        background-image: url("../img/tomato_pour.jpg");
         background-position: center;
         @extend %juice-page-images;
     }
     .eight {
         height: 100%;
-        background-image: url("/elexir_prod/img/orange_leaf.jpg");
+        background-image: url("../img/orange_leaf.jpg");
         background-position: center;
         @extend %juice-page-images;
     }
